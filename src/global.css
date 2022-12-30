@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: "UniqloProBold";
-  src: url("src/localAssets/fonts/UniqloProBold.woff2");
+  src: url("./localAssets/fonts/UniqloProBold.woff2");
 }
 
 @font-face {
   font-family: "UniqloProLight";
-  src: url("src/localAssets/fonts/UniqloProLight.woff2");
+  src: url("./localAssets/fonts/UniqloProLight.woff2");
 }
 
 h4{
