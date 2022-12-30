@@ -54,7 +54,7 @@ const Section1_12 = () => {
 
       {/* text-[calc(.5vw+.5vh)] allows for text to adjust size based on container width/height */}
       <div className='aspect-square col-span-2 row-span-2 flex flex-col justify-center px-10 py-1 text-center md:text-[calc(.5vw+.5vh)] relative '>
-          <img className='md:h-[calc(2vw+2vh)] -md:h-[calc(5vw+5vh)]' src='/src/assets/images/Masterpiece.svg' alt=''></img>
+          <img className='md:h-[calc(2vw+2vh)] -md:h-[calc(5vw+5vh)]' src='/assets/images/Masterpiece.svg' alt=''></img>
           <h3 className='py-3 -md:text-[calc(2vw+2vh)] -md:font-light'>Everyday clothing, made even better.</h3>
           <p>We believe that evolving life’s essentials can improve our lives.
              It’s why we infuse originality and ingenuity into every aspect of the clothes we make.</p>
