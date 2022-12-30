@@ -2,22 +2,22 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className='mt-1 mx-7'>
-      <div className='relative'>
-        <video src='/src/assets/videos/uniqlo_video.mp4' autoPlay loop></video>
+    <div className='md:mt-1 md:mx-7 relative'>
+        <video className='-md:hidden' src='/src/assets/videos/uniqlo_video.mp4' autoPlay loop></video>
+        <video className='md:hidden ' src='/src/assets/videos/hero-video.mp4' autoPlay loop></video>
 
-        <div className='flex flex-col items-center gap-y-4 text-white absolute left-1/2 top-[55%] -translate-y-2/4 -translate-x-2/4'>
-          <h1 className='text-[3.5rem] -mb-5 font-uniqloLight tracking-wide'>TODAY’S CLASSICS</h1>
-          <p className='text-[1.6rem] tracking-widest font-light'>Timeless beauty</p>
-          <div class='w-32 object-cover mb-8'>
+        <div className='flex flex-col items-center gap-y-4 text-white absolute right-0 left-0 top-[36%]'>
+          {/* text-[calc(.5vw+.5vh)] allows for text to adjust size based on container width/height */}
+          <h1 className='text-[calc(2.5vw+2.5vh)] -mb-5 font-uniqloLight tracking-wide'>TODAY’S CLASSICS</h1>
+          <p className='text-[calc(1vw+1vh)] tracking-widest font-light'>Timeless beauty</p>
+          <div class='w-[calc(6vw+6vh)] object-cover mb-4'>
             <img src='/src/assets/images/Masterpiece.png' alt=''></img>
           </div>
-          <div className='py-2 px-24 border-1 border-white cursor-pointer'>
+          <div className='md:py-[calc(.4vw+.4vh)] md:w-[calc((324/1176)*80vw)] -md:w-48 -md:py-1 text-center border-1 border-white cursor-pointer'>
             Featured Content
           </div>
         </div>
 
-      </div>
     </div>
   );
 };

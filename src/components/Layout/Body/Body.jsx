@@ -6,7 +6,7 @@ import Section43_57 from './Section43_57'
 import Section58_64 from './Section58_64'
 const Body = () => {
   return (
-    <div className='grid gap-2 grid-cols-6 mx-7 mt-2'>
+    <div className='grid md:gap-2 md:grid-cols-6 -md:grid-cols-2 md:mx-7 -md:mx-1.5 md:mt-2 -md:mt-1.5'>
       <Section1_12 />
       <Section13_27 />
       <Section28_42 />

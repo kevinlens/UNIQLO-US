@@ -2,7 +2,7 @@ import React from 'react'
 
 const Section13_27 = () => {
   return (
-    <div className='grid gap-2 grid-cols-6 col-span-full '>
+    <div className='grid md:gap-2 -md:gap-1.5 md:grid-cols-6 -md:grid-cols-2 col-span-full'>
 
       <div className='aspect-square relative'>
           <div className='h-full bg-13 bg-cover bg-center bg-no-repeat'></div>
@@ -18,7 +18,7 @@ const Section13_27 = () => {
             <p>Comfort Jacket</p>
           </div>
       </div>
-      <div className='aspect-square col-span-2 row-span-2 flex flex-col justify-center relative'>
+      <div className='aspect-square md:col-span-2 md:row-span-2 flex flex-col justify-center relative'>
           <div className='h-full bg-15 bg-cover bg-center bg-no-repeat'></div>
           <div className='bg-white h-full w-full opacity-0 hover:opacity-80 duration-300 flex flex-col justify-center text-sm absolute text-center top-0'>
             <h4 className='text-xs mb-3'>outwear</h4>
@@ -67,7 +67,7 @@ const Section13_27 = () => {
             <p>DRY Stretch Pullover Hoodie</p>
           </div>
       </div>
-      <div className='aspect-square col-span-2 row-span-2 relative'>
+      <div className='aspect-square md:col-span-2 md:row-span-2 relative'>
           <div className='h-full bg-22 bg-cover bg-center bg-no-repeat'></div>
           <div className='bg-white h-full w-full opacity-0 hover:opacity-80 duration-300 flex flex-col justify-center text-sm absolute text-center top-0'>
             <h4 className='text-xs mb-3'>BOTTOMS</h4>
@@ -88,7 +88,7 @@ const Section13_27 = () => {
             <p>Ultra Stretch High-Rise Skinny-Fit Jeans</p>
           </div>
       </div>
-      <div className='aspect-square col-span-2 row-span-2 relative'>
+      <div className='aspect-square md:col-span-2 md:row-span-2 relative'>
           <div className='h-full bg-25 bg-cover bg-center bg-no-repeat'></div>
           <div className='bg-white h-full w-full opacity-0 hover:opacity-80 duration-300 flex flex-col justify-center text-sm absolute text-center top-0'>
             <h4 className='text-xs mb-3'>BOTTOMS</h4>
@@ -109,7 +109,13 @@ const Section13_27 = () => {
             <p>Ultra Stretch High-Rise Skinny-Fit Jeans</p>
           </div>
       </div>
-
+      <div className='aspect-square relative md:hidden'>
+          <div className='h-full bg-48 bg-cover bg-center bg-no-repeat'></div>
+          <div className='text-xs bg-white h-full w-full opacity-0 hover:opacity-80 duration-300 flex flex-col justify-center px-2 absolute text-center top-0'>
+            <h4 className='mb-3'>cut + sewn</h4>
+            <p>Crew Neck Long-Sleeve Sweatshirt</p>
+          </div>
+      </div>
     </div>
   )
 }
