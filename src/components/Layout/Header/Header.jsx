@@ -1,6 +1,6 @@
 import React from 'react'
-import MasterpieceIcon from '../../../SVG/MasterpieceIcon'
-import RedIcon from '../../../SVG/RedIcon'
+import MasterpieceIcon from '../../../localAssets/SVG/MasterpieceIcon'
+import RedIcon from '../../../localAssets/SVG/RedIcon'
 import Menu from './Menu'
 const Header = () => {
   return (
