@@ -32,8 +32,8 @@ module.exports = {
         116: '44rem',
       },
       backgroundImage: {
-        '1':"url('/src/assets/images/1.jpg')",
-        '2':"url('/src/assets/images/2.jpg')",
+        '1':"url('1.jpg')",
+        '2':"url('./src/assets/images/2.jpg')",
         '3':"url('/src/assets/images/3.jpg')",
         '4':"url('/src/assets/images/4.jpg')",
         '5':"url('/src/assets/images/5.jpg')",
